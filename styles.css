@@ -1,0 +1,206 @@
+/* General Reset */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s forwards; /* Fade-in effect */
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1d1d1d;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Rest of your existing CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1d1d1d;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #f44336;
+}
+
+/* Header */
+.hero {
+    margin-top: 80px; /* Adjust for navbar */
+    background: #1d1d1d;
+    padding: 4rem 2rem;
+    text-align: center;
+    transition: padding 0.3s ease;
+}
+
+.hero-title {
+    font-size: 3rem;
+    color: #f44336;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #999;
+    transition: color 0.3s ease;
+}
+
+/* Glowing Text Effect */
+.glowing-text {
+    text-shadow: 0 0 3px #f44336, 0 0 5px #f44336;
+}
+
+/* Profile Image */
+.profile-img-container {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid #f44336;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* About Section */
+.about,
+.skills,
+.portfolio {
+    padding: 3rem;
+    background-color: #181818;
+    margin: 2rem 0;
+    transition: background-color 0.3s ease;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #f44336;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+/* Portfolio Section */
+.portfolio-box {
+    background: #1d1d1d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.portfolio-box p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio-box:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Footer */
+.footer {
+    background-color: #121212;
+    color: #f44336;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .profile-img-container {
+        margin-bottom: 1rem;
+    }
+}
