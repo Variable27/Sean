@@ -125,7 +125,7 @@ body {
 
 /* Glowing Text Effect */
 .glowing-text {
-    text-shadow: 0 0 3px #f44336, 0 0 5px #f44336;
+    text-shadow: 0 0 3px white;, 0 0 5px #f44336;
 }
 
 /* Profile Image */
@@ -153,7 +153,9 @@ body {
 .portfolio {
     padding: 3rem;
     background-color: #181818;
+    color: green;
     margin: 2rem 0;
+    text-align: center;
     transition: background-color 0.3s ease;
 }
 
