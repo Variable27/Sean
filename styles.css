@@ -11,8 +11,13 @@ body {
     background: linear-gradient(135deg, #1e1e1e, #000000);
     color: #f0f0f0;
     line-height: 1.6;
-    margin: 0;
+    margin: 3px;
     overflow-x: hidden;
+}
+.margin {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* Navbar */
